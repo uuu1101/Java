@@ -8,7 +8,7 @@
 자바에서는 따옴표가 없으면 숫자로 인식한다.
 ```java
 System.out.println(1+2);  //결과 : 3
-Systemp.otuprintln(1.2+1.3); // 결과 : 2.5
+Systemp.out.println(1.2+1.3); // 결과 : 2.5
 ```
 
 ### :bulb: 문자와 문자열
