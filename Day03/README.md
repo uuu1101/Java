@@ -36,3 +36,27 @@
 |char|2byte|모든 유니코드 문자|
 * 문자와 문자열은 다르다. 문자 = char, 문자열 = String
 > char = 2byte, String = 12byte 공간을 차지
+
+### :bulb: 상수와 데이터 타입
+---
+* 실수의 표현 
+```java
+double = 2.2;
+float = 2.2F;
+
+// 2.2는 float이 아니고 double 따라서, float형은 명시해줘야한다.
+```
+
+* 정수의 표현
+```java
+int a = 2147483647;
+long b = 2147483648; // 에러발생
+
+// 변수는 long타입이지만 변수에 대입되는 상수가 int이기 때문에 아래처럼 명시해야한다.
+long b = 2147483648L;
+```
+- short, byte는 int형을 허용하기 때문에 오류가 발생하지 않음
+```java
+short a = 100;
+byte b = 200;
+```
